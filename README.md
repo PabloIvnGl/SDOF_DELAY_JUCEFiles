@@ -1,6 +1,7 @@
-# SDOF DELAY FEEDBACK VST3&so SOURCE JUCE FILES
+#  
+# 🎛️ SDOF DELAY FEEDBACK VST3&so SOURCE JUCE FILES
 
-Este repositorio alberga el código fuente para compilar "SDOFDelayFeedback" VST plugin desarrollado con el framework JUCE
+ 📁Este repositorio contiene el código fuente para compilar "SDOFDelayFeedback" VST plugin desarrollado con el framework JUCE
 
 
 
@@ -10,7 +11,7 @@ Este repositorio alberga el código fuente para compilar "SDOFDelayFeedback" VST
 
 
 
-📦 Requisitos:  
+# 📦 Requisitos:  
 
 JUCE Framework:  
 https://github.com/juce-framework/JUCE  
@@ -20,16 +21,15 @@ Compilador compatible:
 Windows: Microsoft Visual Studio  
 Linux: CMake + GCC/Clang
 
-Las dependencias específicas para Linux se encuentran en la documentación oficial de JUCE:  
+⚙️Las dependencias específicas para Linux se encuentran en la documentación oficial de JUCE:  
 https://github.com/juce-framework/JUCE/blob/master/docs/Linux%20Dependencies.md
 
+#  
+# 🪟 WINDOWS  
 
-WINDOWS  
+🛠️ Para compilar el archivo VST3 se requiere el framework "JUCE" y la aplicación ProJucer todo lo referido a la compilación y descarga está disponible en GitHub juce-framework: https://github.com/juce-framework/JUCE.     
 
-Para compilar el archivo se requiere el framework "JUCE": https://github.com/juce-framework/JUCE.  
-todo lo referido a la compilación está disponible en GitHub juce-framework.  
-
-Comenzando  
+# 🚀 Start  
 
 -Ejecutar ProJUCER contenido en extras de la descarga de juce 709 para Windows.  
 -Crear un nuevo proyecto de tipo Plug-In->Basic con el nombre "SDOFDelayFeedback".  
@@ -78,16 +78,15 @@ Los mismos pasos pueden seguirse para compilar la solución stand alone y obtene
 
 
 
-
-LINUX  
-Para compilar el archivo se requiere el framework "JUCE" https://github.com/juce-framework/JUCE.  
-todo lo referido a la compilación está disponible en GitHub juce-framework.  
+#  
+# 🐧 LINUX  
+Para compilar el archivo se requiere el framework "JUCE" todo lo referido a la compilación está disponible en GitHub juce-framework:  https://github.com/juce-framework/JUCE.    
 En Linux se requieren ciertas dependencias que deben ser previamente instaladas en la documentación de JUCE están disponibles las instrucciones:  
 https://github.com/juce-framework/JUCE/blob/master/docs/Linux%20Dependencies.md   
 
 
 
-Comenzando  
+# 🚀 Start  
 
 -Compila ProJucer utilizando make ya que JUCE en su repositorio no incluye la app ProJucer pre compilada en su version de descarga para Linux
 esto está documentado por JUCE en el siguiente enlace: https://github.com/juce-framework/JUCE?tab=readme-ov-file#the-projucer.  
