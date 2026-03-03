@@ -35,7 +35,7 @@ Comenzando
 -Ejecutar ProJUCER contenido en extras de la descarga de juce 709 para Windows.  
 -Crear un nuevo proyecto de tipo Plug-In->Basic con el nombre "SDOFDelayFeedback".  
 -Selecciona como editor Visual Studio.  
--Comprobar rutas de JUCE a módulos y que estén todos los módulos necesarios agregados en el proyecto:  
+-Comprobar rutas de JUCE a parches y que los módulos necesarios agregados en el proyecto:  
 <img width="1920" height="1077" alt="image" src="https://github.com/user-attachments/assets/d7047bc7-1437-4395-b400-3833b03646b8" />    
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d65648ef-ffb5-4f9c-b0b5-e8f79befe63a" />  
