@@ -3,7 +3,7 @@
 Este repositorio alberga el Código fuente para compilar "SDOFDelay" VST plugin  
 desarrollado con el framework JUCE contiene los archivos para Windows&Linux  
 
--Elaborado bajo licencia GNU por: SDOF LAB por -Pablo Iván Gutiérrez Legent-
+-Elaborado bajo licencia GNU: SDOF LAB por -Pablo Iván Gutiérrez Legent-
 
 <img width="561" height="625" alt="image" src="https://github.com/user-attachments/assets/cd8a21bb-3df9-4216-847f-018824f356d3" />    
 
