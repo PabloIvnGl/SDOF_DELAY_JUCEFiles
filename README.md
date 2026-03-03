@@ -23,11 +23,13 @@ Las dependencias específicas para Linux se encuentran en la documentación ofic
 https://github.com/juce-framework/JUCE/blob/master/docs/Linux%20Dependencies.md
 
 
-WINDOWS
+WINDOWS  
+
 Para compilar el archivo se requiere el framework "JUCE": https://github.com/juce-framework/JUCE.  
 todo lo referido a la compilación está disponible en GitHub juce-framework.  
 
 Comenzando  
+
 -Ejecutar ProJUCER contenido en extras de la descarga de juce 709 para windows.  
 -Crear un nuevo proyecto de tipo Plug-In->Basic con el nombre "SDOFDelayFeedback".  
 -Selecciona como editor Visual Studio.  
