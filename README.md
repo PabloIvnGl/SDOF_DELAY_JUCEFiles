@@ -1,8 +1,8 @@
-# SDOF DELAY FEEDBACK VST3 SOURCEC JUCE FILES
+# SDOF DELAY FEEDBACK VST3 SOURCE JUCE FILES
 
-Este repositorio alberga el Código fuente para compilar "SDOFDelay" vst plugin  
+Este repositorio alberga el Código fuente para compilar "SDOFDelay" VST plugin  
 desarrollado con el framework JUCE contiene los archivos para Windows&Linux  
-elavorado bajo licencia GNU por: SDOF LAB por -Pablo Iván Gutiérrez Legent
+elaborado bajo licencia GNU por: SDOF LAB por -Pablo Iván Gutiérrez Legent
 
 <img width="561" height="625" alt="image" src="https://github.com/user-attachments/assets/cd8a21bb-3df9-4216-847f-018824f356d3" />    
 
@@ -31,10 +31,10 @@ todo lo referido a la compilación está disponible en GitHub juce-framework.
 
 Comenzando  
 
--Ejecutar ProJUCER contenido en extras de la descarga de juce 709 para windows.  
+-Ejecutar ProJUCER contenido en extras de la descarga de juce 709 para Windows.  
 -Crear un nuevo proyecto de tipo Plug-In->Basic con el nombre "SDOFDelayFeedback".  
 -Selecciona como editor Visual Studio.  
--Comprobar rutas de JUCE a módulos y que estén todos los modulos necesarios agregados en el proyecto:  
+-Comprobar rutas de JUCE a módulos y que estén todos los módulos necesarios agregados en el proyecto:  
 <img width="1920" height="1077" alt="image" src="https://github.com/user-attachments/assets/d7047bc7-1437-4395-b400-3833b03646b8" />    
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d65648ef-ffb5-4f9c-b0b5-e8f79befe63a" />  
@@ -44,10 +44,10 @@ Comenzando
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a07c548c-495f-479d-9673-dbee34de5492" />    
 
 
--Cerrar ventana de projucer y acceder a la ruta en windows recién creada por el proyecto.  
+-Cerrar ventana de projucer y acceder a la ruta en Windows recién creada por el proyecto.  
 esta debe contener tres carpetas y el archivo de proyecto: Builds, JuceLibraryCode, Source & SDOFDelayFeedback.jucer.  
--Copiar pegar y reemplazar los archivos de la carpeta main de este repositorio en la carpeta Source del proyecto recien creado.  
--Ejecutar el archivo SDOFDelayFeedback.jucer con la aplicacion ProJucer.  
+-Copiar pegar y reemplazar los archivos de la carpeta main de este repositorio en la carpeta Source del proyecto recién creado.  
+-Ejecutar el archivo SDOFDelayFeedback.jucer con la aplicación ProJucer.  
 -Abrir explorador de archivos del proyecto y seleccionar añadir archivos ya existentes:  
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b3f5711e-f4ff-4bdc-aca8-e23657cda431" />  
@@ -65,18 +65,18 @@ esta debe contener tres carpetas y el archivo de proyecto: Builds, JuceLibraryCo
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b3ad47d7-f4b0-4a8c-902e-d56d7ff130ae" />  
 
--Una vez compilada la solución quedará un archivo extension .vst3 comunmente en la ruta: SDOFDelayFeedback\Builds\VisualStudio2026\x64\Release\VST3\SDOFDelayFeedback.vst3\Contents\x86_64-win  
+-Una vez compilada la solución quedará un archivo extensión .vst3 comúnmente en la ruta: SDOFDelayFeedback\Builds\VisualStudio2026\x64\Release\VST3\SDOFDelayFeedback.vst3\Contents\x86_64-win  
 
 <img width="1126" height="25" alt="image" src="https://github.com/user-attachments/assets/9551226b-5e50-47cb-8791-341cbf426057" />  
 
-Este archivo puede ser leído por cualquier DAW en windows que soporte vst3.
-Los mismos pasos pueden seguirse para compilar la solución stand alone y obtener una aplicación ejecutable para windows.  
+Este archivo puede ser leído por cualquier DAW en Windows que soporte vst3.
+Los mismos pasos pueden seguirse para compilar la solución stand alone y obtener una aplicación ejecutable para Windows.  
 
 
 
 LINUX  
 Para compilar el archivo se requiere el framework "JUCE" https://github.com/juce-framework/JUCE.  
-todo lo referido a la compilación está disponible en github juce-framework.  
+todo lo referido a la compilación está disponible en GitHub juce-framework.  
 En Linux se requieren ciertas dependencias que deben ser previamente instaladas en la documentación de JUCE están disponibles las instrucciones:  
 https://github.com/juce-framework/JUCE/blob/master/docs/Linux%20Dependencies.md.  
 
@@ -84,16 +84,14 @@ https://github.com/juce-framework/JUCE/blob/master/docs/Linux%20Dependencies.md.
 Comenzando
 
 -Compila ProJucer utilizando Cmake
--Ejecutar la app Projucer compilada para linux 
+-Ejecutar la app Projucer compilada para Linux 
 -Crear un nuevo proyecto de tipo Plug-In->Basic con el nombre "SDOFDelayFeedback".   
 -Comprobar rutas de JUCE a módulos.
 <img width="1920" height="1077" alt="image" src="https://github.com/user-attachments/assets/d7047bc7-1437-4395-b400-3833b03646b8" />    
   
 -Una vez creado el proyecto debería verse así:  
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a07c548c-495f-479d-9673-dbee34de5492" />    
-
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a07c548c-4" />
 
 
 
